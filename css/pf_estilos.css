@@ -1,0 +1,185 @@
+
+body {
+	font-family:Roboto;
+	max-width: 1200px; 
+	margin: 0 auto;
+}
+
+#pop-up{
+	text-align: center;
+	width: 400px;
+	height: auto;
+	background: #f7a98f;
+	box-sizing: border-box;
+	border-radius: 30px;
+	padding: 10px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#main{
+	width: 100%;
+	height: 100vh;
+	background: #0008;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+
+
+
+}
+
+
+
+
+#header {
+	background-color:#F6EEE3; 
+	padding: 60px;
+}
+
+#img-head{
+	width: 10%;
+	float: left;
+}
+
+#img-head, img{
+	width: 300px;
+	height: 300px;
+}
+
+#redes{
+	text-align: center;
+}
+
+#redes, h1{
+	font-size: 70px;
+	color: black;
+}
+
+#redes, a{
+	text-decoration: none;
+	color: #f7a98f;
+	font-size: 25px;
+}
+
+.no-ini{
+	padding-left: 25px;
+}
+
+#col-1{
+	width:27%;
+	float: left;
+	height: 2020px;	
+}
+.datos-solapa {
+	padding: 15px 25px 15px 0px;
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+
+.datos{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	padding-right: 5px;
+	margin-top: -20px;
+	line-height: 30px;
+}
+
+#col-2{
+	width:70%;
+	float: left;
+	text-align: left;
+	padding-left: 35px;
+}
+.estudios-solapa {
+	padding: 0 30px;
+	width: 100%;
+	font-size: 45px;
+}
+
+.estudios-tit{
+	padding-left: 30px;
+	width: 70%;
+	font-size: 30px;
+}
+
+.estudios-tit, p{
+	padding-left: 30px!important;
+}
+
+.estudios{
+	padding-left: 60px!important;
+	font-size: 20px;
+}
+
+
+.experiencia-solapa {
+	padding: 0 30px;
+	width: 100%;
+	font-size: 45px;
+}
+
+.experiencia-tit{
+	padding-left: 30px;
+	width: 60%;
+	font-size: 30px;
+}
+
+.experiencia-tit, p{
+	padding-left: 30px!important;
+}
+
+.experiencias{
+	padding-left: 60px!important;
+	font-size: 20px;
+}
+
+.contacto-solapa {
+	padding: 0 30px;
+	width: 100%;
+	font-size: 45px;
+}
+
+.form-contain{
+	padding-left: 30px!important
+}
+
+form{
+	text-align: left;
+	padding-left: 80px;
+	background-color: #F6EEE3;
+	width: 30%;
+}
+
+.form{
+	font-size: 18px;
+	line-height: 30px;
+	padding: 15px 35px;
+	font-weight: 600;
+}
+
+.boton-send{
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0px 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#volver{
+	position: relative;
+}
+
+#up{
+	font-size: 60px;
+	text-align: right;
+}
+
+/*RESPONSIVE*/
